@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="dxZ3vCOyWGS">
+  <start-date>2021-02-26T16:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="19800" end-time="32400"/>
+        <time-span start-time="66600" end-time="82800"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>资源 1</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+  </task>
+  <task id="t1">
+    <title>学习QQ影音ps</title>
+    <effort>460800</effort>
+    <effort-done>4608</effort-done>
+    <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
+  </task>
+  <task id="t2">
+    <title>学习李涛ps 24集</title>
+    <effort>403200</effort>
+    <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t5">
+    <title>学习scala</title>
+    <effort>403200</effort>
+    <effort-done>39600</effort-done>
+    <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
+    <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t6">
+    <title>学习spark</title>
+    <effort>403200</effort>
+    <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t5"/>
+    <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t7">
+    <title>每天任务</title>
+    <effort>10252800</effort>
+    <effort-done>30600</effort-done>
+    <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
