@@ -35,8 +35,8 @@
   <task-change-set user="Torin" date="2021-02-28T00:27:18.008Z" timestamp="2021-02-28T00:27:18.008Z">
     <change idref="t5" attribute="internalEffortDone" type="real" from="0" to="39600" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Torin" date="2021-02-28T01:34:40.115Z" timestamp="2021-02-28T01:34:40.115Z">
-    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="4608"/>
+  <task-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="4608" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Torin" date="2021-02-27T14:28:04.396Z" timestamp="2021-02-27T14:28:04.396Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800" resolved="yes"/>
@@ -47,7 +47,7 @@
   <metadata-change-set user="Torin" date="2021-02-28T00:27:18.008Z" timestamp="2021-02-28T00:27:18.008Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
   </metadata-change-set>
-  <metadata-change-set user="Torin" date="2021-02-28T01:34:40.115Z" timestamp="2021-02-28T01:34:40.115Z">
-    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}"/>
+  <metadata-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
   </metadata-change-set>
 </changelog>

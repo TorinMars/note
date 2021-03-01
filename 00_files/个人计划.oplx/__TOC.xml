@@ -48,13 +48,13 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="67.5807">
-          <selected/>
-        </scale>
+        <scale scale-name="Automatic" full-day-width="67.5807"/>
         <scale scale-name="Day" full-day-width="1215"/>
         <scale scale-name="Hour" full-day-width="65880"/>
         <scale scale-name="Minute" full-day-width="64800"/>
-        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Month" full-day-width="34.5">
+          <selected/>
+        </scale>
         <scale scale-name="Quarter" full-day-width="9.6"/>
         <scale scale-name="Week" full-day-width="162"/>
         <scale scale-name="Year" full-day-width="2.3625"/>
