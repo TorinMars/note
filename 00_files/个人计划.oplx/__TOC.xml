@@ -2,22 +2,30 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="0" y="41" w="1440" h="836">
     <editing-scenario>dxZ3vCOyWGS</editing-scenario>
-    <comparison-scenario>hDYYY63_Vw_</comparison-scenario>
+    <comparison-scenario>cKv2fgATs8h</comparison-scenario>
     <view>task</view>
-    <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>349</split-view-divider-position>
-      <outline x="0" y="0" w="349" h="752">
+      <split-view-divider-position>418</split-view-divider-position>
+      <outline x="0" y="0" w="418" h="752">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="187"/>
+        <column name="Title" width="150"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="46"/>
-        <selected-items-at-filter-time idrefs="t8 t9 t7 t6 t2 t5"/>
+        <column name="Status" width="20"/>
+        <column name="Attachments" width="20"/>
+        <column name="Constraint Start" width="100"/>
+        <column name="Resources Cost" width="68"/>
+        <column name="Total Task Cost" width="80"/>
+        <column name="Planned Start" width="100"/>
+        <column name="Start Variance" width="68"/>
+        <column name="Total Slack" width="65"/>
+        <column name="ev_budgetedCostOfWorkScheduled" width="103"/>
+        <selected-items-at-filter-time idrefs="t7 t6 t2 t5"/>
       </outline>
-      <gantt-view x="-29" y="0" w="789" h="752">
-        <view-mode>actual</view-mode>
+      <gantt-view x="-29" y="0" w="720" h="752">
+        <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
         <show-project-end/>
@@ -49,12 +57,12 @@
           <key>Assigned</key>
         </task-bar-label>
         <scale scale-name="Automatic" full-day-width="67.5807"/>
-        <scale scale-name="Day" full-day-width="1215"/>
-        <scale scale-name="Hour" full-day-width="65880"/>
-        <scale scale-name="Minute" full-day-width="64800"/>
-        <scale scale-name="Month" full-day-width="34.5">
+        <scale scale-name="Day" full-day-width="159.965">
           <selected/>
         </scale>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="76.5504"/>
         <scale scale-name="Quarter" full-day-width="9.6"/>
         <scale scale-name="Week" full-day-width="162"/>
         <scale scale-name="Year" full-day-width="2.3625"/>
@@ -63,13 +71,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="608">
+      <outline x="0" y="0" w="306" h="752">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="135"/>
+        <column name="Resource" width="157"/>
         <column name="#" width="75"/>
+        <selected-items-at-filter-time idrefs="r3 r2"/>
       </outline>
-      <timeline x="-20" y="0" w="573" h="608">
+      <timeline x="-55" y="0" w="804" h="752">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -99,17 +108,16 @@
         <task-bar-label task-type="task" position="right">
           <key/>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="100">
+        <scale scale-name="Automatic" full-day-width="214.286">
           <selected/>
         </scale>
-        <scale scale-name="Day" full-day-width="405"/>
-        <scale scale-name="Hour" full-day-width="21960"/>
-        <scale scale-name="Minute" full-day-width="21600"/>
-        <scale scale-name="Month" full-day-width="11.5"/>
-        <scale scale-name="Quarter" full-day-width="3.2"/>
-        <scale scale-name="Week" full-day-width="54"/>
-        <scale scale-name="Year" full-day-width="0.7875"/>
-        <scale scale-name="legacy-day-widths" full-day-width="1"/>
+        <scale scale-name="Day" full-day-width="867.857"/>
+        <scale scale-name="Hour" full-day-width="47057.1"/>
+        <scale scale-name="Minute" full-day-width="46285.7"/>
+        <scale scale-name="Month" full-day-width="24.6429"/>
+        <scale scale-name="Quarter" full-day-width="6.85714"/>
+        <scale scale-name="Week" full-day-width="115.714"/>
+        <scale scale-name="Year" full-day-width="1.6875"/>
       </timeline>
     </resource-view>
     <calendar>
@@ -131,11 +139,12 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>10</next-task-id>
-    <next-resource-id>2</next-resource-id>
+    <next-task-id>23</next-task-id>
+    <next-resource-id>4</next-resource-id>
     <scenario id="dxZ3vCOyWGS" name="Actual" filename="Actual.xml"/>
     <scenario id="apSuiL18hv-" name="基线 2021/2/28" filename="apSuiL18hv-.xml"/>
     <scenario id="hDYYY63_Vw_" name="基线 2021/2/28 2" filename="hDYYY63_Vw_.xml"/>
+    <scenario id="cKv2fgATs8h" name="基线 2021/3/2" filename="cKv2fgATs8h.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>

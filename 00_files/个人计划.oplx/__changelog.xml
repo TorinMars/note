@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Torin" date="2021-02-27T14:28:04.396Z" timestamp="2021-02-27T14:28:04.396Z">
-    <change idref="t2" to="t-1" to-position="1" resolved="yes">
-      <change idref="t2" attribute="effort" type="real" from="28800" to="403200"/>
-      <change idref="t2" attribute="internalPrerequisitesString" type="string" to="1FS"/>
-      <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2021-02-26T21:30:00.000Z"/>
-      <change idref="t2" attribute="title" type="string" to="学习李涛ps 24集"/>
-    </change>
-    <change idref="t5" to="t-1" to-position="2" resolved="yes">
-      <change idref="t5" attribute="effort" type="real" from="28800" to="403200"/>
-      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2021-02-26T21:30:00.000Z"/>
-      <change idref="t5" attribute="startLockedDate" type="date" to="2021-02-26T21:30:00.000Z"/>
-      <change idref="t5" attribute="title" type="string" to="学习scala"/>
-    </change>
-    <change idref="t6" to="t-1" to-position="3" resolved="yes">
-      <change idref="t6" attribute="effort" type="real" from="28800" to="403200"/>
-      <change idref="t6" attribute="internalPrerequisitesString" type="string" to="5FS"/>
-      <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2021-02-26T21:30:00.000Z"/>
-      <change idref="t6" attribute="title" type="string" to="学习spark"/>
-    </change>
-    <change idref="t7" to="t-1" to-position="4" resolved="yes">
-      <change idref="t7" attribute="effort" type="real" from="28800" to="10252800"/>
-      <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2021-02-26T21:30:00.000Z"/>
-      <change idref="t7" attribute="title" type="string" to="每天任务"/>
-    </change>
-    <change idref="t1" attribute="title" type="string" from="任务 1" to="学习QQ影音ps" resolved="yes"/>
-    <change idref="t1" attribute="effort" type="real" from="28800" to="460800" resolved="yes"/>
-    <change idref="t1" attribute="startLockedDate" type="date" to="2021-02-26T21:30:00.000Z" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Torin" date="2021-02-27T14:45:55.630Z" timestamp="2021-02-27T14:45:55.630Z">
     <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="30600"/>
   </task-change-set>
@@ -38,16 +10,37 @@
   <task-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
     <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="4608" resolved="yes"/>
   </task-change-set>
-  <resource-change-set user="Torin" date="2021-02-27T14:28:04.396Z" timestamp="2021-02-27T14:28:04.396Z">
-    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800;19800,32400,66600,82800" resolved="yes"/>
+  <task-change-set user="Torin" date="2021-03-01T22:18:50.685Z" timestamp="2021-03-01T22:18:50.685Z">
+    <change idref="t1" attribute="internalEffortDone" type="real" from="4608" to="276480" resolved="yes"/>
+    <change idref="t5" attribute="internalEffortDone" type="real" from="39600" to="20160" resolved="yes"/>
+    <change idref="t6" attribute="internalPrerequisitesString" type="string" from="5FS" resolved="yes"/>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="0" to="20160" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Torin" date="2021-03-01T22:30:05.862Z" timestamp="2021-03-01T22:30:05.862Z">
+    <change idref="t2" attribute="effort" type="real" from="403200" to="201600"/>
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" from="2021-02-26T21:30:00.000Z" to="2021-03-22T21:30:00.000Z"/>
+  </task-change-set>
+  <task-change-set user="Torin" date="2021-03-01T22:41:22.709Z" timestamp="2021-03-01T22:41:22.709Z">
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" from="2021-03-22T21:30:00.000Z" to="2021-03-13T22:15:00.000Z"/>
+  </task-change-set>
+  <resource-change-set user="Torin" date="2021-03-01T22:30:05.862Z" timestamp="2021-03-01T22:30:05.862Z">
+    <change idref="r3" to="r-1" to-position="1">
+      <change idref="r3" attribute="name" type="string" from="" to="30单位"/>
+      <change idref="r3" attribute="unitsAvailable" type="real" from="1" to="0.2999999821186066"/>
+    </change>
+    <change idref="r2" to="r-1" to-position="2">
+      <change idref="r2" attribute="name" type="string" from="" to="马通林"/>
+    </change>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.5"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="50单位"/>
   </resource-change-set>
-  <metadata-change-set user="Torin" date="2021-02-27T14:04:59.015Z" timestamp="2021-02-27T14:04:59.015Z">
-    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2021-02-26T16:00:00.000Z" resolved="yes"/>
-  </metadata-change-set>
   <metadata-change-set user="Torin" date="2021-02-28T00:27:18.008Z" timestamp="2021-02-28T00:27:18.008Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
   </metadata-change-set>
   <metadata-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Torin" date="2021-03-01T22:41:22.709Z" timestamp="2021-03-01T22:41:22.709Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/3/2&quot;;&#10;            uuid = cKv2fgATs8h;&#10;        }&#10;    );&#10;}"/>
   </metadata-change-set>
 </changelog>
