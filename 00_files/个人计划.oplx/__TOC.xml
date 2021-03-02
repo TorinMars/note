@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="41" w="1440" h="836">
+  <window x="0" y="39" w="1920" h="1018">
     <editing-scenario>dxZ3vCOyWGS</editing-scenario>
-    <comparison-scenario>cKv2fgATs8h</comparison-scenario>
+    <comparison-scenario>j-SC6lfjapi</comparison-scenario>
     <view>task</view>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>418</split-view-divider-position>
-      <outline x="0" y="0" w="418" h="752">
+      <split-view-divider-position>515</split-view-divider-position>
+      <outline x="5" y="0" w="515" h="919">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="150"/>
-        <column name="Effort" width="70"/>
+        <column name="Title" width="171"/>
+        <column name="Effort" width="119"/>
         <column name="%Done" width="46"/>
-        <column name="Status" width="20"/>
-        <column name="Attachments" width="20"/>
-        <column name="Constraint Start" width="100"/>
-        <column name="Resources Cost" width="68"/>
-        <column name="Total Task Cost" width="80"/>
-        <column name="Planned Start" width="100"/>
-        <column name="Start Variance" width="68"/>
-        <column name="Total Slack" width="65"/>
-        <column name="ev_budgetedCostOfWorkScheduled" width="103"/>
-        <selected-items-at-filter-time idrefs="t7 t6 t2 t5"/>
+        <column name="ev_scheduleVariance" width="68"/>
+        <column name="ev_varianceAtCompletion" width="68"/>
+        <selected-items-at-filter-time idrefs="t2 t7 t10 t6 t11 t5"/>
       </outline>
-      <gantt-view x="-29" y="0" w="720" h="752">
-        <view-mode>split</view-mode>
+      <gantt-view x="-29" y="0" w="1073" h="919">
+        <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
         <show-project-end/>
@@ -70,15 +63,15 @@
       </gantt-view>
     </task-view>
     <resource-view>
-      <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="752">
+      <split-view-divider-position>406</split-view-divider-position>
+      <outline x="0" y="0" w="391" h="919">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="157"/>
-        <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r3 r2"/>
+        <column name="Resource" width="140"/>
+        <column name="#" width="63"/>
+        <column name="Efficiency" width="50"/>
       </outline>
-      <timeline x="-55" y="0" w="804" h="752">
+      <timeline x="-118" y="0" w="1154" h="919">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -139,12 +132,12 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>23</next-task-id>
-    <next-resource-id>4</next-resource-id>
+    <next-task-id>12</next-task-id>
+    <next-resource-id>2</next-resource-id>
     <scenario id="dxZ3vCOyWGS" name="Actual" filename="Actual.xml"/>
     <scenario id="apSuiL18hv-" name="基线 2021/2/28" filename="apSuiL18hv-.xml"/>
     <scenario id="hDYYY63_Vw_" name="基线 2021/2/28 2" filename="hDYYY63_Vw_.xml"/>
-    <scenario id="cKv2fgATs8h" name="基线 2021/3/2" filename="cKv2fgATs8h.xml"/>
+    <scenario id="j-SC6lfjapi" name="基线 2021/3/1" filename="j-SC6lfjapi.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>

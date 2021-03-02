@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="dxZ3vCOyWGS">
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="j-SC6lfjapi">
   <start-date>2021-02-26T16:00:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
@@ -82,23 +82,10 @@
       <calendar name="Overtime" editable="yes" overtime="yes"/>
     </schedule>
     <child-resource idref="r1"/>
-    <child-resource idref="r3"/>
-    <child-resource idref="r2"/>
   </resource>
   <resource id="r1">
     <name>Torin</name>
     <type>Staff</type>
-    <units-available>0.370000004768372</units-available>
-    <efficiency>0.370000004768372</efficiency>
-  </resource>
-  <resource id="r2">
-    <name>马通林</name>
-    <type>Staff</type>
-  </resource>
-  <resource id="r3">
-    <name>30单位</name>
-    <type>Staff</type>
-    <units-available>0.299999982118607</units-available>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
@@ -113,31 +100,30 @@
   <task id="t1">
     <title>学习QQ影音ps</title>
     <effort>460800</effort>
-    <effort-done>276480</effort-done>
+    <effort-done>4608</effort-done>
     <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
   </task>
   <task id="t2">
     <title>学习李涛ps 24集</title>
-    <effort>201600</effort>
-    <start-constraint-date>2021-03-13T22:15:00.000Z</start-constraint-date>
+    <effort>403200</effort>
+    <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
     <prerequisite-task idref="t1"/>
-    <start-no-earlier-than>2021-03-13T22:15:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t5">
     <title>学习scala</title>
     <effort>756000</effort>
-    <effort-done>14400</effort-done>
+    <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
     <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
     <static-cost>210</static-cost>
-    <prerequisite-task idref="t6"/>
-    <assignment idref="r1" units="0.370000004768372"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>学习spark</title>
-    <effort>112200</effort>
+    <effort>403200</effort>
     <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
-    <assignment idref="r1" units="0.370000004768372"/>
+    <prerequisite-task idref="t5"/>
     <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t7">
@@ -150,5 +136,4 @@
   <critical-path root="-1" enabled="false" resources="false">
     <color space="srgb" r="1" g="0.5" b="0.5"/>
   </critical-path>
-  <tracking-changes/>
 </scenario>
