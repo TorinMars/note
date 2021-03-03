@@ -4,15 +4,6 @@
   <task-change-set user="Torin" date="2021-02-27T14:45:55.630Z" timestamp="2021-02-27T14:45:55.630Z">
     <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="30600"/>
   </task-change-set>
-  <task-change-set user="Troin" date="2021-03-01T07:15:51.736Z" timestamp="2021-03-01T07:15:51.736Z">
-    <change idref="t5" attribute="staticCost" type="real" from="0" to="60" resolved="yes"/>
-    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Troin" date="2021-03-01T07:23:16.304Z" timestamp="2021-03-01T07:23:16.304Z">
-    <change idref="t5" attribute="staticCost" type="real" from="60" to="210" resolved="yes"/>
-    <change idref="t5" attribute="effort" type="real" from="403200" to="756000" resolved="yes"/>
-    <change idref="t5" attribute="internalEffortDone" type="real" from="39600" to="0" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Troin" date="2021-03-01T07:30:43.835Z" timestamp="2021-03-01T07:30:43.835Z">
     <change idref="t5" attribute="startLockedDate" type="date" from="2021-02-26T21:30:00.000Z"/>
     <change idref="t5" attribute="internalAssignments" type="string" from="1" to="1 {37}"/>
@@ -35,9 +26,14 @@
   <task-change-set user="Troin" date="2021-03-03T01:42:03.807Z" timestamp="2021-03-03T01:42:03.807Z">
     <change idref="t6" attribute="internalEffortDone" type="real" from="12902" to="17418"/>
   </task-change-set>
-  <resource-change-set user="Troin" date="2021-03-01T07:15:51.735Z" timestamp="2021-03-01T07:15:51.735Z">
-    <change idref="r1" attribute="name" type="string" from="资源 1" to="Torin" resolved="yes"/>
-  </resource-change-set>
+  <task-change-set user="Torin" date="2021-03-03T15:20:45.062Z" timestamp="2021-03-03T15:20:45.062Z">
+    <change idref="t13" to="t-1" to-position="4">
+      <change idref="t13" attribute="effort" type="real" from="28800" to="201600"/>
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2021-03-02T21:30:00.000Z"/>
+      <change idref="t13" attribute="title" type="string" to="学习FLINK"/>
+    </change>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="17418" to="23224"/>
+  </task-change-set>
   <resource-change-set user="Troin" date="2021-03-01T07:30:43.835Z" timestamp="2021-03-01T07:30:43.835Z">
     <change idref="r1" attribute="efficiency" type="real" from="1" to="0.3700000047683716"/>
     <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.3700000047683716"/>

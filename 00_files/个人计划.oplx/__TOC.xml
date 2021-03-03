@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="39" w="1792" h="1018">
+  <window x="0" y="40" w="1440" h="837">
     <editing-scenario>dxZ3vCOyWGS</editing-scenario>
     <comparison-scenario>j-SC6lfjapi</comparison-scenario>
     <view>task</view>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>515</split-view-divider-position>
-      <outline x="0" y="0" w="515" h="919">
+      <outline x="0" y="0" w="515" h="753">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="304"/>
         <column name="%Done" width="46"/>
         <column name="Effort" width="119"/>
-        <selected-items-at-filter-time idrefs="t7 t6 t2 t5"/>
+        <selected-items-at-filter-time idrefs="t7 t13 t6 t2 t5"/>
       </outline>
-      <gantt-view x="-29" y="0" w="945" h="919">
+      <gantt-view x="-29" y="0" w="623" h="753">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -130,7 +130,7 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>13</next-task-id>
+    <next-task-id>14</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="dxZ3vCOyWGS" name="Actual" filename="Actual.xml"/>
     <scenario id="apSuiL18hv-" name="基线 2021/2/28" filename="apSuiL18hv-.xml"/>

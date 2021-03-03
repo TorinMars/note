@@ -108,6 +108,7 @@
     <child-task idref="t2"/>
     <child-task idref="t5"/>
     <child-task idref="t6"/>
+    <child-task idref="t13"/>
     <child-task idref="t7"/>
   </task>
   <task id="t1">
@@ -136,7 +137,7 @@
   <task id="t6">
     <title>学习spark</title>
     <effort>64512</effort>
-    <effort-done>17418</effort-done>
+    <effort-done>23224</effort-done>
     <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
     <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
     <assignment idref="r1" units="0.370000004768372"/>
@@ -148,6 +149,12 @@
     <effort-done>30600</effort-done>
     <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
     <start-no-earlier-than>2021-02-26T21:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>学习FLINK</title>
+    <effort>201600</effort>
+    <start-constraint-date>2021-03-02T21:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2021-03-02T21:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color space="srgb" r="1" g="0.5" b="0.5"/>
