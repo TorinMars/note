@@ -136,7 +136,7 @@
   <task id="t6">
     <title>学习spark</title>
     <effort>64512</effort>
-    <effort-done>12902</effort-done>
+    <effort-done>17418</effort-done>
     <locked-start-date>2021-02-26T21:30:00.000Z</locked-start-date>
     <start-constraint-date>2021-02-26T21:30:00.000Z</start-constraint-date>
     <assignment idref="r1" units="0.370000004768372"/>

@@ -7,15 +7,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>515</split-view-divider-position>
-      <outline x="0" y="0" w="515" h="934">
+      <outline x="0" y="0" w="515" h="919">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="171"/>
-        <column name="Effort" width="119"/>
+        <column name="Title" width="304"/>
         <column name="%Done" width="46"/>
-        <selected-items-at-filter-time idrefs="t12 t7 t6 t2 t5"/>
+        <column name="Effort" width="119"/>
+        <selected-items-at-filter-time idrefs="t7 t6 t2 t5"/>
       </outline>
-      <gantt-view x="-29" y="0" w="975" h="934">
+      <gantt-view x="-29" y="0" w="945" h="919">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>

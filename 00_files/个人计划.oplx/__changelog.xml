@@ -4,9 +4,6 @@
   <task-change-set user="Torin" date="2021-02-27T14:45:55.630Z" timestamp="2021-02-27T14:45:55.630Z">
     <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="30600"/>
   </task-change-set>
-  <task-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
-    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="4608" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Troin" date="2021-03-01T07:15:51.736Z" timestamp="2021-03-01T07:15:51.736Z">
     <change idref="t5" attribute="staticCost" type="real" from="0" to="60" resolved="yes"/>
     <change idref="t5" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
@@ -35,6 +32,9 @@
     <change idref="t6" attribute="startLockedDate" type="date" to="2021-02-26T21:30:00.000Z"/>
     <change idref="t6" attribute="internalEffortDone" type="real" from="22440" to="12902"/>
   </task-change-set>
+  <task-change-set user="Troin" date="2021-03-03T01:42:03.807Z" timestamp="2021-03-03T01:42:03.807Z">
+    <change idref="t6" attribute="internalEffortDone" type="real" from="12902" to="17418"/>
+  </task-change-set>
   <resource-change-set user="Troin" date="2021-03-01T07:15:51.735Z" timestamp="2021-03-01T07:15:51.735Z">
     <change idref="r1" attribute="name" type="string" from="资源 1" to="Torin" resolved="yes"/>
   </resource-change-set>
@@ -42,9 +42,6 @@
     <change idref="r1" attribute="efficiency" type="real" from="1" to="0.3700000047683716"/>
     <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.3700000047683716"/>
   </resource-change-set>
-  <metadata-change-set user="Torin" date="2021-02-28T15:51:10.335Z" timestamp="2021-02-28T15:51:10.335Z">
-    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}" resolved="yes"/>
-  </metadata-change-set>
   <metadata-change-set user="Troin" date="2021-03-01T07:30:43.835Z" timestamp="2021-03-01T07:30:43.835Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28&quot;;&#10;            uuid = &quot;apSuiL18hv-&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/2/28 2&quot;;&#10;            uuid = &quot;hDYYY63_Vw_&quot;;&#10;        },&#10;                {&#10;            name = &quot;\U57fa\U7ebf 2021/3/1&quot;;&#10;            uuid = &quot;j-SC6lfjapi&quot;;&#10;        }&#10;    );&#10;}"/>
   </metadata-change-set>
