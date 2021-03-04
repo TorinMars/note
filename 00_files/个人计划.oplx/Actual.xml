@@ -153,6 +153,7 @@
   <task id="t13">
     <title>学习FLINK</title>
     <effort>201600</effort>
+    <effort-done>40320</effort-done>
     <start-constraint-date>2021-03-02T21:30:00.000Z</start-constraint-date>
     <start-no-earlier-than>2021-03-02T21:30:00.000Z</start-no-earlier-than>
   </task>

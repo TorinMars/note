@@ -7,15 +7,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>515</split-view-divider-position>
-      <outline x="0" y="0" w="515" h="753">
+      <outline x="0" y="0" w="515" h="738">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="304"/>
         <column name="%Done" width="46"/>
         <column name="Effort" width="119"/>
-        <selected-items-at-filter-time idrefs="t7 t13 t6 t2 t5"/>
+        <selected-items-at-filter-time idrefs="t5 t13 t7 t6 t2 t14"/>
       </outline>
-      <gantt-view x="-29" y="0" w="623" h="753">
+      <gantt-view x="0" y="0" w="593" h="738">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -130,7 +130,7 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>14</next-task-id>
+    <next-task-id>15</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="dxZ3vCOyWGS" name="Actual" filename="Actual.xml"/>
     <scenario id="apSuiL18hv-" name="基线 2021/2/28" filename="apSuiL18hv-.xml"/>
